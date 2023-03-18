@@ -1,10 +1,10 @@
 import java.util.Scanner;
 
-public class GuessingGameTester {
+public class GuessingGameStarter {
     private final GuessingGame game;
     private final Scanner scanner = new Scanner(System.in);
 
-    GuessingGameTester() {
+    GuessingGameStarter() {
         this.game = new GuessingGame();
     }
 
