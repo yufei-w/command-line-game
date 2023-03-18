@@ -8,7 +8,7 @@ public class Main {
             String input = scanner.nextLine();
             if (input.equals("1")) {
                 GuessingGameStarter starter = new GuessingGameStarter();
-                starter.test();
+                starter.start();
                 break;
             }else if (input.equals("2")){
                 System.out.println("Exit");

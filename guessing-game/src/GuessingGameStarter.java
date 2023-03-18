@@ -68,7 +68,7 @@ public class GuessingGameStarter {
     }
 
     // Driver method
-    public void test() {
+    public void start() {
         this.startGame();
         while (true) {
             if (this.game.isGameOver()) {
